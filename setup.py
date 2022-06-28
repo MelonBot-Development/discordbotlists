@@ -1,3 +1,4 @@
+import setuptools
 from setuptools import setup
 
 from botlists import __title__, __author__, __version__
@@ -13,8 +14,7 @@ setup(
     author=__author__,
     url="https://github.com/MelonBot-Development/discordbotlists",
     version=__version__,
-    packages=["botlists"],
-    python_requires=[">=3.5"],
+    packages=setuptools.find_packages(),
     include_package_data=True,
     install_requires=requirements,
     description="An api wrapper for botblock.org.",
@@ -30,4 +30,5 @@ setup(
     project_urls={
         "Source": "https://github.com/MelonBot-Development/discordbotlists",
     },
+    python_requires=">=3.8"
 )
