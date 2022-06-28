@@ -1,7 +1,7 @@
 __title__ = "discordbotlists"
 __author__ = "japandotorg"
 __license__ = "MIT"
-__copyright__ = "Copyright 2022, japandotorg"
+__copyright__ = "Copyright 2022 © japandotorg"
 __version__ = "1.0.0"
 
 name = "discordbotlists"
