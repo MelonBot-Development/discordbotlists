@@ -127,7 +127,7 @@ class Client:
         """
         
         try:
-            user_info = await.bot.get_user_info(str(bot_id))
+            user_info = await self.bot.get_user_info(str(bot_id))
         except AttributeError:
             user_info = await self.bot.fetch_user(bot_id)
         except:
