@@ -128,7 +128,7 @@ class Base:
         
         self.auth[list_id] = auth_token
         
-    def remove_auth(self, list_id: str):
+    def remove_creds(self, list_id: str):
         """
         Removes an authorization token for the given list ID from botblock.org.
         
